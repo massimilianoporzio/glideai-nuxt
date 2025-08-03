@@ -13,7 +13,7 @@ useSeoMeta({
 </script>
 
 <template>
-  {{ settings }}
+  <AppHeader :settings="settings" />
 
   <slot />
 </template>
